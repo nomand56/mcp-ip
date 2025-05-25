@@ -6,17 +6,17 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
-# Environment files
+# Environment variables
 .env
 .env.*
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # Logs
 logs/
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Build output
 dist/

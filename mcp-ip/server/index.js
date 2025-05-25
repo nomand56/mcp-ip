@@ -24,7 +24,7 @@ server.tool(
     const json = await resp.json()
     return {
       content: [
-        { type: "text", text: json.region_name + ", " + json.country_name },
+        { type: "text", text: JSON.stringify(json) },
       ],
     }
   }
